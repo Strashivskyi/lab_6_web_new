@@ -14,13 +14,13 @@ const { Header, Content} = Layout;
 
 function App() {
   return (
-   <Layout className="mainLayout">
+   <Layout>
    <Header>
       <AppHeader/>
    </Header>
    <Content className="content"> 
       <Info/>
-      <div style={{color:"white", fontWeight: "600", fontSize:"40px", textAlign: "center", borderBottom: "1px solid #FFFFFF",borderTop: "1px solid #FFFFFF", marginTop:"-70px", marginBottom:"60px", marginRight: "100px", marginLeft: "100px"}}>The most trusted banks in the USA</div>
+      <div style={{color:"white", fontWeight: "600", fontSize:"40px", textAlign: "center", borderBottom: "1px solid #FFFFFF",borderTop: "1px solid #FFFFFF", marginTop:"-100px", marginBottom:"40px", marginRight: "100px", marginLeft: "100px"}}>The most trusted banks in the USA</div>
       <ItemsContainer/>
    </Content>
   <Footer/>
