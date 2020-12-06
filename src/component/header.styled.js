@@ -11,6 +11,7 @@ export const NewHeader = styled.div`
     padding-left: 200px;
     margin-left: -200px;
     width: 150%;
+    color: #680300 !important;
     z-index: 999;
     .logo { 
         height: 70px;
@@ -29,6 +30,7 @@ export const NewHeader = styled.div`
   
   }
     .ant-menu {
+        
         border: 0;
         background: none !important;
         padding-left: 250px;
@@ -40,7 +42,7 @@ export const NewHeader = styled.div`
         position: relative;
         border: 0 !important;
         font-size: 24px;
-        color: #333;
+        color: #680300;
         margin-right: 50px;
         padding-right: 20px;
         padding-left: 20px;
@@ -59,6 +61,7 @@ export const NewHeader = styled.div`
         }
         &:before{
             content: '';
+            
             background: #680300;
             width: 1.5px;
             position: absolute;
@@ -69,7 +72,7 @@ export const NewHeader = styled.div`
             transition: all 0.3s linear;
         }
         &:hover{
-            color: #680300;
+            color: #680300 !important;
             background: none;
             &:before{
                 left: -20%;
@@ -82,7 +85,6 @@ export const NewHeader = styled.div`
         }
       }
       .ant-menu li.ant-menu-item-selected{
-        color: #680300;
         background: none;
         &:before{
             left: -20%;

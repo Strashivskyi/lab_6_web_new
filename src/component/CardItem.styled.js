@@ -3,7 +3,7 @@ import { Button } from "antd";
 
 
 export const Footer = styled.div`
-    display: flex;
+    display: initial;
     margin-top: 20px;
     justify-content: space-between;
     
