@@ -64,7 +64,7 @@ margin-bottom: 15px;
 export const Rate = styled.div`
 color: white;
 font-weight: 500;
-font-size: 52x;
+font-size: 32x;
 
 
 
@@ -72,7 +72,7 @@ font-size: 52x;
 export const Fee = styled.div`
 color: white;
 font-weight: 500;
-font-size: 52x;
+font-size: 32x;
 
 
 

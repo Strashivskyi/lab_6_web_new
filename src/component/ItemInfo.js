@@ -17,7 +17,7 @@ function ItemInfo(props) {
 
     return (
         <div style={{display: "flex", minHeight: "580px"}}>
-          <div><img src={item.image} alt="credit_card_image" style={{borderRadius: "23px", height: "40vh", margin: "90px", marginRight: "50px"}}/></div>
+          <div><img src={item.image} style={{borderRadius: "23px", height: "40vh", margin: "90px", marginRight: "50px"}}/></div>
           <div style={{margin:"70px"}}> 
           <Name>{item.title}</Name>
           <BankName>{item.bank_name}</BankName>
