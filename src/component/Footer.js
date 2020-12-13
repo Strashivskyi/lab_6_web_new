@@ -7,7 +7,7 @@ import  {
     // AliwangwangOutlined
   } from "@ant-design/icons";
   import { IconBase, DisplayInlineBlock, FooterText, Image } from "./Footer.styled";
-  import Logo from '../assets/Vector(1).png';
+  import Logo from '../assets/logo.png';
 
 
 function Footer() {

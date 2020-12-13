@@ -12,8 +12,8 @@ export const NewHeader = styled.div`
     margin-left: -200px;
     width: 150%;
     color: #680300 !important;
-    z-index: 999;
-    .logo { 
+    z-index: 10;
+        .logo { 
         height: 70px;
       }
     

@@ -9,7 +9,7 @@ const Selects = styled.div`
 
 function CustomSelect({options}){
     return (<Selects style={{width: "200px", height: "100px", marginRight:"50px", color:"black !important", borderColor:"black !important"}}>
-        <Select options={options}/>
+        <Select options={options} style={{boxShadow: "none", bordered:"False"}}/>
     </Selects>)
 }
 

@@ -1,12 +1,10 @@
 import React from 'react'
 import {Menu} from 'antd'
-import Logo from '../assets/Vector(1).png';
+import Logo from '../assets/logo.png';
 import NewHeader from "./header.styled";
 import {
-    BrowserRouter,
     Link
   } from "react-router-dom";
-
 
 
 function AppHeader() {
@@ -23,7 +21,8 @@ function AppHeader() {
             </Menu.Item>
             <Menu.Item key="3">
                 <Link to="/infoes" style={{color:"#680300"}}>Cart</Link>
-            </Menu.Item>
+        </Menu.Item>
+
             </Menu>
             </NewHeader>
      </div>

@@ -19,11 +19,17 @@ export const StyledButton = styled(Button)`
 
 `;
 export const CardWrapper = styled.div`
+    min-height: 700px;
+    max-height: 1400px;
+    margin-bottom: 30px;
     margin-top: 30px;
     padding-right: 150px;
     margin-left: 70px;
-    margin-bottom: 60px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    gap: 30px;
     width: 100%;
+    height: 100%;
+
 `

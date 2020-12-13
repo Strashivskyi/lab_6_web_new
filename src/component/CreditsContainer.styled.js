@@ -8,4 +8,5 @@ export const CardWrapper = styled.div`
     padding-left: 70px;
     padding-bottom: 60px;
     display: flex;
+    min-height: 650px;
 `

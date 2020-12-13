@@ -13,6 +13,7 @@ export const StyledButton = styled(Button)`
     border-radius: 20px;
     color: white;
     margin-left: 93px;
+
     border: 1px solid gray !important; 
 
 `;
