@@ -3,7 +3,7 @@ import { Button } from "antd";
 
 
 export const Footer = styled.div`
-    display: flex;
+    display: initial;
     margin-top: 20px;
     justify-content: space-between;
     
@@ -13,6 +13,7 @@ export const StyledButton = styled(Button)`
     border-radius: 20px;
     color: white;
     margin-left: 93px;
+
     border: 1px solid gray !important; 
 
 `;
