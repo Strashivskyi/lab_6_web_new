@@ -12,7 +12,7 @@ function Search(props) {
     function doSearch(e) {
         e.preventDefault();          
         let param = document.getElementById('bank-name').value;
-        props.onSearch(param);
+        props.byBankName(param);
       }
 
           return(

@@ -1,5 +1,5 @@
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
     useParams
 } from "react-router-dom";
@@ -9,13 +9,27 @@ import {
 import {
   Link
 } from "react-router-dom";
+import { getOne } from "../api/Crud.js";
+import Loader from "./Loader"
 
 function ItemInfo(props) {
     let { itemId } = useParams();
     
-    let item = props.items[itemId-1];
+    const [item, setItem] = useState({});
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+      (async function () {
+          setLoading(true);
+          setItem(await getOne(itemId));
+          setLoading(false);
+      })()
+  }, [itemId]);
+
 
     return (
+      loading ? (
+          <Loader />):(
         <div style={{display: "flex", minHeight: "580px"}}>
           <div><img src={item.image} style={{borderRadius: "23px", height: "40vh", margin: "90px", marginRight: "50px"}}/></div>
           <div style={{margin:"70px"}}> 
@@ -31,7 +45,6 @@ function ItemInfo(props) {
           
           </div>
         </div>
-        
-      )
-  }
+      ))
+          }
 export default ItemInfo;

@@ -9,9 +9,8 @@ function Filters(props) {
     function doFilterByRewardsRate(e) {
         e.preventDefault();          
         let rewardsRateInPercent = document.getElementById('rewardsRateInPercent').value;
-        
         props.byRewardsRate(rewardsRateInPercent);
-    };
+    }
 
     function doFilterByAnnualFee(e) {
         e.preventDefault();
@@ -40,9 +39,9 @@ function Filters(props) {
                 <Select id="bank_name" placeholder="Choose bank..." required>
                     <Option value="Select a bank" disabled selected>Select a bank...</Option>
                     <Option value="Bank of America">Bank of America</Option>
-                    <Option value="Citi bank">Citibank</Option>
+                    <Option value="Citi">Citi</Option>
                     <Option value="American Express">American Express</Option>
-                    <Option value="Capital One">Capital One</Option>
+                    <Option value="Discover it">Discover it</Option>
                 </Select>
                 <InputButton type="submit" id="search-button" value="Filter" />
             </form>
