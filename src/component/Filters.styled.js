@@ -15,10 +15,6 @@ width: 150px;
 
 export const Option = styled.option`
     color: grey;
-    &:hover{
-        background-color: red;
-
-    }
 
     
 `

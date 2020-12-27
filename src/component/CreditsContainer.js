@@ -85,6 +85,7 @@ const CreditsContainer = () => {
                     annualFee={item.annualFee}
                     introOffer={item.introOffer}
                     rewardsRateInPercent={item.rewardsRateInPercent}
+                    
                   />
 
               )))

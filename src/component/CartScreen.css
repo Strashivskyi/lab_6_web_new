@@ -1,0 +1,22 @@
+.shopping_cart_title{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+.link{
+    color: black;
+}
+.cart_text_under_items{
+    font-size: 30px;
+    margin-right: 10%;
+    margin-left: 60%;
+    color: wheat;
+}
+.cart_text_under_items_price{
+    font-weight: 600;
+}
+.buttons{
+    margin-left: 28vw;
+    
+}

@@ -2,11 +2,14 @@ import React from "react";
 import { Layout } from 'antd';
 import './App.css';
 import AppHeader from './component/header.js'
-import Info from './component/info.js'
 import Footer from "./component/Footer";
 import CopyrightText from "./component/Copyright";
 import Home from "./component/home";
 import CreditsContainer from "./component/CreditsContainer";
+import CreditCardsContainer from "./component/CreditCardsContainer";
+import HomeScreen from "./component/Homescreen";
+import CartScreen from "./component/CartScreen";
+
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
@@ -24,8 +27,10 @@ function App() {
    </Header>
    <Content className="content"> 
       <Route exact path="/" component={Home} />
-      <Route path="/info" component={CreditsContainer} />
-      <Route path="/infoes" component={Info} />
+      {/* <Route path="/info" component={CreditsContainer} /> */}
+      <Route exact path="/products/:id" component={CreditCardsContainer} />
+      <Route exact path="/products" component={HomeScreen} />
+      <Route exact path="/cart" component={CartScreen} />
    </Content>
   <Footer/>
   <CopyrightText/>

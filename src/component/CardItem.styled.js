@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Button } from "antd";
+import "./CartItem.css";
 
 
 export const Footer = styled.div`
